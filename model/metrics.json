@@ -1,0 +1,23 @@
+{
+  "model": "LinearRegression",
+  "feature": "YearsExperience",
+  "target": "Salary",
+  "slope": 9437.99395944353,
+  "intercept": 25755.147811724237,
+  "train_rows": 160,
+  "test_rows": 40,
+  "train": {
+    "r2": 0.9791427709654302,
+    "mae": 4707.551264670214,
+    "rmse": 6010.3717636930805
+  },
+  "test": {
+    "r2": 0.9831368268457784,
+    "mae": 4056.3438613897365,
+    "rmse": 4872.95436617445
+  },
+  "cv_r2_mean": 0.979593171410138,
+  "experience_min": 0.6,
+  "experience_max": 14.8,
+  "sklearn_version": "1.8.0"
+}
